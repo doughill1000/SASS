@@ -1,0 +1,20 @@
+﻿//Used with @include. Can have parameters
+
+@mixin article{
+   width:800px;
+   background-color:white;
+   border-radius:10px;
+   padding:10px;
+   margin:5px;
+}
+
+@mixin unordered-list{
+   list-style-type:none;
+}
+
+@mixin button($background-color){
+   width:100px;
+   border-radius:5px;
+   height:50px;
+   background-color: $background-color;
+}

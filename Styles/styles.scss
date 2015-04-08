@@ -1,0 +1,47 @@
+﻿
+
+//Import variables and mixins from other files
+@import '_variables.scss';
+@import '_mixins.scss'; 
+
+body {
+   background-color: $body-color;
+}
+
+.button{
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.button1{
+   @extend .button; //Used like inheritance
+   @include button($button-1-color);
+}
+
+.button2{
+   @extend .button; //Used like inheritance
+   @include button($button-2-color);
+}
+
+//Nested elements, easier structure
+ul.contacts{
+   @include unordered-list;
+   li{
+      article{
+         @include article;
+         header{
+            font-size:15px;
+         }
+         p{
+            font-size:10px;
+         }
+      }
+   }
+}
+
+@debug "example debug message"; //Shows in Web Workbench debug console
+
+@warn "You have been warned"; //Shows as warning in debug console
+
+/*Created Using SASS */
+
+

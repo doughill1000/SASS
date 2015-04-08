@@ -1,0 +1,6 @@
+C:\Doug\VisualStudio\SASS\SASS\bin\SASS.dll.config
+C:\Doug\VisualStudio\SASS\SASS\bin\SASS.dll
+C:\Doug\VisualStudio\SASS\SASS\bin\SASS.pdb
+C:\Doug\VisualStudio\SASS\SASS\obj\Debug\SASS.csprojResolveAssemblyReference.cache
+C:\Doug\VisualStudio\SASS\SASS\obj\Debug\SASS.dll
+C:\Doug\VisualStudio\SASS\SASS\obj\Debug\SASS.pdb
