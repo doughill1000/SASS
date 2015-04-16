@@ -14,12 +14,12 @@ body {
 
 .button1{
    @extend .button; //Used like inheritance
-   @include button($button-1-color);
+   @include button($button-1-color); //@include for Mixins
 }
 
 .button2{
    @extend .button; //Used like inheritance
-   @include button($button-2-color);
+   @include button($button-2-color); //@include for Mixins
 }
 
 //Nested elements, easier structure
